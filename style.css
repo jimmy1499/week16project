@@ -1,0 +1,41 @@
+/* 設定全體字體 */
+body {
+    font-family: 'Noto Sans TC', "Microsoft JhengHei", sans-serif;
+    scroll-behavior: smooth; /* 點擊導覽列會有平滑滾動效果 */
+}
+
+/* 英雄區設定 */
+.hero-section {
+    min-height: 80vh; /* 高度佔螢幕的 80% */
+    background-attachment: fixed; /* 背景圖固定滾動效果（Parallax） */
+}
+
+.hero-section h1 {
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+/* 卡片圖片設定固定高度，避免因圖片大小不同導致卡片歪掉 */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* 導覽列陰影與字體 */
+.navbar-brand {
+    letter-spacing: 2px;
+}
+
+/* 調整表格 header 的顏色 */
+.table-danger {
+    background-color: #dc3545 !important;
+}
+
+/* 手機版調整 */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+}
+@charset "utf-8";
+/* CSS Document */
+
